@@ -16,5 +16,5 @@
 <body>
 
         <header>
-            This is a header
+            <?php display_menu() ?>
         </header>
