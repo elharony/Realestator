@@ -2,7 +2,7 @@
 
 <main>
 
-This is main!
+<?php the_content(); ?>
 
 </main>
 
