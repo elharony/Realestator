@@ -1,6 +1,11 @@
 <?php
 
 /*
+ * Theme Support
+ */
+add_theme_support("post-thumbnails");
+
+/*
  * add_styles
  */
 function add_styles() {
