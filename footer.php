@@ -1,5 +1,5 @@
         <footer>
-            This is a footer!
+            All Copyrights Reserved © 2019 - Realestator | Chalets & Caviar in Aspen, Colorado
         </footer>
 
         

@@ -29,6 +29,7 @@
     margin: 0 10px;
     padding: 10px;
     list-style: none;
+    font-family: "Montserrat", Sans-serif
 }
 .menu-links li a {
     font-size: 17px;
@@ -39,4 +40,13 @@
 }
 .menu-links li a:hover {
     border-bottom-color: #fff5e7
+}
+
+/* Footer */
+footer {
+    padding: 25px;
+    text-align: center;
+    background: #334355;
+    color: #fff5e7;
+    font-family: "Montserrat", Sans-serif
 }
