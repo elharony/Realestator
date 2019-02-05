@@ -15,7 +15,7 @@
 </head>
 <body>
 
-        <header>
+        <header class="main-header">
             <div class="logo">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
             </div>
