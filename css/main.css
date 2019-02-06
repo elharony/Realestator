@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6, div, p, span, li, a {
     font-family: "Montserrat", Sans-serif
 }
 
+main {
+    overflow: hidden;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
