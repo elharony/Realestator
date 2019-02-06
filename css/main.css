@@ -4,7 +4,7 @@
     padding: 0;
     border: 0;
 }
-h1, h2, h3, h4, h5, h6, div, p, span, li {
+h1, h2, h3, h4, h5, h6, div, p, span, li, a {
     font-family: "Montserrat", Sans-serif
 }
 
@@ -25,9 +25,11 @@ h1, h2, h3, h4, h5, h6, div, p, span, li {
     color: #334355;
 }
 .btn {
+    display: inline-block;
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
+    text-decoration: none;
     line-height: 1em;
     color: #fff5e7;
     background-color: #334355;
@@ -94,10 +96,25 @@ footer {
 }
 
 
+/* Itmes [Section] */
+.page-home .items {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.items-sell, .items-rent {
+    margin-bottom: 50px;
+}
+.items-sell .btn, .items-rent .btn {
+    margin-top: 30px;
+}
 
-
-
-
+@media all and (min-width: 1000px) {
+    .page-home .items {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+    }
+}
 
 
 
