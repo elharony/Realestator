@@ -117,6 +117,23 @@ footer {
 }
 
 
+/* hero [section] */
+.hero {
+    padding: 50px 0;
+    font-size: 60px;
+    font-weight: 700;
+    color: #334355;
+    background: #fdfdfd;
+    box-shadow: 0 -15px 20px 4px #333333
+}
+
+/* page-buy & page-rent */
+.page-buy .es-wrap, .page-rent .es-wrap {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
 
 /* Responsive Menu */
 @media all and (min-width: 500px) {
