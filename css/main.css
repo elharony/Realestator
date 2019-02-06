@@ -4,12 +4,36 @@
     padding: 0;
     border: 0;
 }
+h1, h2, h3, h4, h5, h6, div, p, span, li {
+    font-family: "Montserrat", Sans-serif
+}
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.section-heading {
+    font-size: 60px;
+    font-weight: bold;
+    color: #334355;
+}
+.section-description {
+    font-size: 35px;
+    letter-spacing: 1.3px;
+    color: #334355;
+}
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1em;
+    color: #fff5e7;
+    background-color: #334355;
+    padding: 15px 35px;
+}
+
 
 /* Header */
 .main-header {
@@ -57,8 +81,24 @@ footer {
     text-align: center;
     background: #334355;
     color: #fff5e7;
-    font-family: "Montserrat", Sans-serif
 }
+
+
+/* Intro [Section] */
+.intro {
+    padding: 100px 0;
+    text-align: center;
+}
+.intro .section-heading {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
 
 
 /* Responsive Menu */
