@@ -53,9 +53,11 @@ main {
 .logo {
     width: 100%;
     height: 65px;
+    text-align: center;
 }
 .logo img {
     width: 100%;
+    max-width: 370px;
     max-height: 100%;
 }
 .menu-links {
@@ -66,11 +68,10 @@ main {
 .menu-links li {
     display: inline-block;
     margin: 0 10px;
-    padding: 0 10px;
     list-style: none;
 }
 .menu-links li a {
-    font-size: 17px;
+    font-size: 14px;
     color: #fff5e7;
     text-decoration: none;
     border-bottom: 2px solid transparent;
@@ -82,6 +83,8 @@ main {
 
 /* Footer */
 footer {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
     padding: 25px;
     text-align: center;
     background: #334355;
@@ -186,30 +189,21 @@ footer {
     font-weight: normal !important;
 }
 
-@media all and (min-width: 660px) {
-    .contact-wrapper {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-
 
 /* Responsive */
-@media all and (min-width: 500px) {
-    /* .logo {
-        width: 40%
+@media all and (min-width: 660px) {
+    .logo {
+        width: 40%;
     }
     .menu-links {
         width: 60%;
         text-align: right;
-    } */
-    
-}
-@media all and (min-width: 930px) {
-    /* .logo {
-        width: 25%
     }
-    .menu-links {
-        width: 75%;
-    } */
+    .menu-links li a {
+        font-size: 15px;
+        margin: 0 10px;
+    }
+    .contact-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
 }
