@@ -8,7 +8,7 @@
 
     <!-- SEO Essentials -->
     <title>
-        <?php is_front_page() ? bloginfo("name") : wp_title("&raquo;", true, "right")?>
+        <?php is_front_page() ? bloginfo("name") : wp_title("&raquo;", true, "right") - bloginfo("name")?>
     </title>
 
     <?php wp_head(); ?>
