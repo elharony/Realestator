@@ -68,7 +68,6 @@ main {
     margin: 0 10px;
     padding: 0 10px;
     list-style: none;
-    font-family: "Montserrat", Sans-serif
 }
 .menu-links li a {
     font-size: 17px;
@@ -140,23 +139,77 @@ footer {
     margin-top: 20px;
 }
 
+/* Contact */
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px 0;
+}
+
+/** Ninja Forms Style **/
+.nf-before-form-content {
+    display: none;
+}
+.ninja-forms-field {
+    font-family: "Montserrat", Sans-serif;
+    padding: 15px;
+    color: #334355;
+    background: #33435503;
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease;
+}
+.ninja-forms-field:hover {
+    border-bottom-color: #334355
+}
+.nf-error .ninja-forms-field {
+    border: 0 !important;
+    border-bottom: 1px solid #ff0000 !important;
+}
+.ninja-forms-field:focus {
+    outline: 0;
+}
+.field-wrap input[type=button] {
+    min-width: 100px;
+    font-size: 15px;
+    background: #ffffff;
+    color: #334355;
+    border: 0;
+    border: 2px solid #334355;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.field-wrap input[type=button]:hover {
+    background: #334355;
+    color: #fff5e7;
+}
+.nf-field-label label {
+    font-weight: normal !important;
+}
+
+@media all and (min-width: 660px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
 
-/* Responsive Menu */
+
+/* Responsive */
 @media all and (min-width: 500px) {
-    .logo {
+    /* .logo {
         width: 40%
     }
     .menu-links {
         width: 60%;
         text-align: right;
-    }
+    } */
+    
 }
 @media all and (min-width: 930px) {
-    .logo {
+    /* .logo {
         width: 25%
     }
     .menu-links {
         width: 75%;
-    }
+    } */
 }
