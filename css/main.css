@@ -106,6 +106,9 @@ footer {
     grid-template-columns: 1fr;
     padding: 20px;
 }
+.page-home .es-wrap .pagination {
+    display: none;
+}
 .items-sell, .items-rent {
     margin-bottom: 50px;
 }
