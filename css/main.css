@@ -188,6 +188,10 @@ footer {
 .nf-field-label label {
     font-weight: normal !important;
 }
+.nf-field-element textarea {
+    height: 220px !important;
+    resize: vertical;
+}
 
 
 /* Responsive */
@@ -206,5 +210,6 @@ footer {
     }
     .contact-wrapper {
         grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
     }
 }
