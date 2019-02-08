@@ -18,7 +18,9 @@
         <header class="main-header">
             <div class="container">
                 <div class="logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
+                    <a href="<?php echo get_home_url(); ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo">
+                    </a>
                 </div>
                 <?php display_menu() ?>
             </div>
