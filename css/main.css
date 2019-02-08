@@ -194,6 +194,7 @@ footer {
 @media all and (min-width: 660px) {
     .logo {
         width: 40%;
+        text-align: left;
     }
     .menu-links {
         width: 60%;
