@@ -10,7 +10,7 @@
         </div>
     </section>
 
-    <section class="items">
+    <section class="items container">
         <section class="items-sell">
             <h3 class="section-heading">Buy</h3>
             <?php echo do_shortcode('[es_my_listing layout="2_col" category="for sale" posts_per_page="2" show_filter="0"]'); ?>
